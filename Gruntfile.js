@@ -1,25 +1,27 @@
 /*jshint node:true */
 module.exports = function(grunt) {
 
+  var isVerbose = grunt.option("verbose") === true;
+
   // Project configuration.
   grunt.initConfig({
     // Task configuration.
     run: {
       qunit_core_npm_install: {
         options: {
-          cwd: "node_modules/qunitjs/",
-          quiet: Infinity
+          cwd: "node_modules/qunitjs/"
         },
-        exec: "npm install --log-level error || exit 1"
+        exec: "npm install --loglevel=" + (isVerbose ? "warn" : "error")
       }
     },
     run_grunt: {
       qunit_core_build: {
         options: {
           minimumFiles: 1,
-          tasks: ["build"],
+          maximumFiles: 1,
+          task: ["build"],
           cwd: "node_modules/qunitjs/",
-          log: false,
+          log: isVerbose,
           process: function(result) {
             if (result.fail) {
               grunt.fail.warn("Failed to build custom QUnit commit. Is qunitjs@1.16.0 available yet?");
@@ -33,7 +35,7 @@ module.exports = function(grunt) {
       },
     },
     copy: {
-      qunit_core_publish: {
+      qunit_core_prepublish: {
         cwd: "node_modules/qunitjs/dist/",
         expand: true,
         src: ["**"],

@@ -1,7 +1,7 @@
 {
   "name": "qunit-pending",
   "description": "A QUnit plugin to add the \"pending\" test syntax to QUnit, a la Mocha.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/JamesMGreene/qunit-pending",
   "author": {
     "name": "James M. Greene",
@@ -29,7 +29,7 @@
     "test": "grunt travis --verbose"
   },
   "dependencies": {
-    "qunitjs": "git://github.com/jquery/qunit.git#150ecaf586717fa7591bf67bbd43172d74c0fedc"
+    "qunitjs": "git://github.com/JamesMGreene/qunit.git#v1.16.0-beta.1"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
@@ -38,7 +38,7 @@
     "grunt-contrib-qunit": "^0.5.2",
     "grunt-run": "^0.2.4",
     "grunt-run-grunt": "^0.1.4",
-    "qunitjs": "git://github.com/jquery/qunit.git#150ecaf586717fa7591bf67bbd43172d74c0fedc"
+    "qunitjs": "git://github.com/JamesMGreene/qunit.git#v1.16.0-beta.1"
   },
   "keywords": [
     "qunit-plugin",
