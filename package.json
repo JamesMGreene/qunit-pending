@@ -29,7 +29,7 @@
     "test": "grunt travis --verbose"
   },
   "dependencies": {
-    "qunitjs": "git://github.com/JamesMGreene/qunit.git#v1.16.0-beta.1"
+    "qunitjs": "^1.16.0"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
@@ -37,8 +37,7 @@
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-contrib-qunit": "^0.5.2",
     "grunt-run": "^0.2.4",
-    "grunt-run-grunt": "^0.1.4",
-    "qunitjs": "git://github.com/JamesMGreene/qunit.git#v1.16.0-beta.1"
+    "grunt-run-grunt": "^0.1.4"
   },
   "keywords": [
     "qunit-plugin",

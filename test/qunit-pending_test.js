@@ -30,7 +30,7 @@ QUnit.test("test the results for the skipped test, no callback", function(assert
     failed: 0,
     passed: 0,
     total: 0,
-    testNumber: 2,
+    testId: "7b9c5a3d",
     skipped: true
   }, "testDone context");
 });
@@ -51,7 +51,7 @@ QUnit.test("test the results for the skipped test, with callback", function(asse
     failed: 0,
     passed: 0,
     total: 0,
-    testNumber: 4,
+    testId: "5a559298",
     skipped: true
   }, "testDone context");
 });
@@ -76,7 +76,7 @@ QUnit.test("test the results of the previous normal test", function(assert) {
     failed: 0,
     passed: 1,
     total: 1,
-    testNumber: 6,
+    testId: "5c08c34d",
     skipped: false
   }, "testDone context");
 });
@@ -97,7 +97,7 @@ QUnit.test("test the results of the previous pending test", function(assert) {
     failed: 0,
     passed: 0,
     total: 0,
-    testNumber: 8,
+    testId: "fb3cba99",
     skipped: true
   }, "testDone context");
 });
