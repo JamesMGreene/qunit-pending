@@ -1,7 +1,7 @@
 {
   "name": "qunit-pending",
   "description": "A QUnit plugin to add the \"pending\" test syntax to QUnit, a la Mocha.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/JamesMGreene/qunit-pending",
   "author": {
     "name": "James M. Greene",

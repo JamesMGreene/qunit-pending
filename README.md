@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/JamesMGreene/qunit-pending.png)](https://travis-ci.org/JamesMGreene/qunit-pending)
+[![Build Status](https://travis-ci.org/JamesMGreene/qunit-pending.png?branch=master)](https://travis-ci.org/JamesMGreene/qunit-pending)
 
 # qunit-pending
 
@@ -29,5 +29,5 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## License
 
-Copyright (c) 2014 James M. Greene  
+Copyright (c) 2014-2015 James M. Greene
 Licensed under the MIT license.
