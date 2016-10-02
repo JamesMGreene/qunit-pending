@@ -21,6 +21,7 @@ QUnit.skip("skipped test, no callback");
 QUnit.test("test the results for the skipped test, no callback", function(assert) {
   delete testDoneContext.runtime;
   delete testDoneContext.duration;
+  delete testDoneContext.source;
 
   assert.strictEqual(testDone, 2, "Should be 2 tests completed already");
   assert.deepEqual(testDoneContext, {
@@ -42,6 +43,7 @@ QUnit.skip("skipped test, with callback", function(assert) {
 QUnit.test("test the results for the skipped test, with callback", function(assert) {
   delete testDoneContext.runtime;
   delete testDoneContext.duration;
+  delete testDoneContext.source;
 
   assert.strictEqual(testDone, 4, "Should be 4 tests completed already");
   assert.deepEqual(testDoneContext, {
@@ -65,6 +67,7 @@ QUnit.test("still works", function(assert) {
 QUnit.test("test the results of the previous normal test", function(assert) {
   delete testDoneContext.runtime;
   delete testDoneContext.duration;
+  delete testDoneContext.source;
 
   assert.strictEqual(testDone, 6, "Should be 6 tests completed already");
   assert.deepEqual(testDoneContext, {
@@ -88,6 +91,7 @@ QUnit.test("works");
 QUnit.test("test the results of the previous pending test", function(assert) {
   delete testDoneContext.runtime;
   delete testDoneContext.duration;
+  delete testDoneContext.source;
 
   assert.strictEqual(testDone, 8, "Should be 8 tests completed already");
   assert.deepEqual(testDoneContext, {

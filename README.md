@@ -7,7 +7,7 @@ A [QUnit](http://qunitjs.com/) plugin that adds the "pending" test syntax, a la 
 
 ## Requirements
 
-This plugin requires QUnit core ("qunitjs") >= `v1.16.0`+, which introduced the "skipped" test status and `QUnit.skip` function.
+This plugin is compatible with QUnit core ("qunitjs") `>=v1.16.0`, which introduced the "skipped" test status and `QUnit.skip` function.
 
 
 ## Usage
@@ -29,5 +29,5 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## License
 
-Copyright (c) 2014-2015 James M. Greene
+Copyright (c) 2014-2016 James M. Greene
 Licensed under the MIT license.
