@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/JamesMGreene/qunit-pending.svg?branch=master)](https://travis-ci.org/JamesMGreene/qunit-pending)  [![NPM version](https://badge.fury.io/js/qunit-pending.svg)](http://badge.fury.io/js/qunit-pending)
+[![Build Status](https://travis-ci.org/JamesMGreene/qunit-pending.svg?branch=master)](https://travis-ci.org/JamesMGreene/qunit-pending)  [![NPM version](https://badge.fury.io/js/qunit-pending.svg)](https://www.npmjs.com/package/qunit-pending)
 
 # qunit-pending
 
